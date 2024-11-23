@@ -1,0 +1,19 @@
+body {
+    background-color:lightblue;
+}
+marquee {
+    background-color: rgb(224, 136, 224);
+    font-size: larger;
+}
+table, th, td {
+    border: 1px solid blue
+    }
+    table, th, td {
+    border: 3px solid
+    blue;
+    bordercollapse:
+    collapse;
+    }
+    th, td {
+    padding: 15px;
+    }

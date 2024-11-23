@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>reservas hotel</title>
+    <link rel="stylesheet"href="styles.css">
+</head>
+<body>
+    <h1> Haga su reserva</h1>
+    <label for=”id del input”>FORMULARIO DE RESERVA</label>
+
+    <form action="/procesareserva.php" method="get">
+        <fieldset>
+        <legend>Datos Personales</legend>
+         Nombre: <input type="text" name="nombre" type="text" placeholder="nombre" maxlength="100" size=”20”><br>
+         Apellidos: <input type="text" name="apellidos" maxlength="100" size="20"><br>
+         DNI: <input type="text" name="DNI" placeholder="DNI con letra" maxlength="10" value=""><br>
+        </fieldset> <input type="submit" value="Enviar">
+        </form>
+        <p>
+            HAZ TU RESERVA
+
+
+        </p>
+        <form>
+        <fieldset>Datos de su estancia
+            <p>
+        <legend>Habitación:</legend>
+        Triple<input type="radio" name="triple" value="T"> 
+        Doble <input type="radio" name="doble" value="D">
+        Individual <input type="radio" name="individual" value="I"> <br>
+        </fieldset>
+    </p>
+
+        </form>
+        <!-- aqui hago la lista ordenada -->
+        <p>
+            Número de Personas
+               
+      <label for="numero de personas">Número de personas</label>
+      <select name="lista de habitaciones" id="lista">
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+             </select>
+             <p>
+               Por favor, rellene las fechas deseadas
+             </p>
+             <p>
+    Fecha de entrada:<input type="date" name="fecha de entrada">
+    Hora de llegada:<input type=time" name="hora de llegada">
+             </p> 
+    
+</form>
+        </p>
+        <div>
+
+ 
+        </div>
+
+        <input type="checkbox" name="fuma" checked> LLevo mascotas
+    </fieldset> 
+    <p></p>
+    <input type="submit" value="Enviar">
+
+    deseo reiniciar todo
+    <input type="submit" value="reiniciar">
+    <p>
+    
+    <p>
+        <a href="index.html">volver a la pagina principal</a>
+    </p>
+</body>
+</html>
